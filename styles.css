@@ -17,8 +17,37 @@ i {
   cursor: pointer;
 }
 
+main{
+  margin: auto;
+}
+
 #buscar {
+  position: relative;
+  left: -250px;
+  top: -150px;
+  background-color: white;
+  padding: 5px 10px;
+  height: 50px;
+  width: 500px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 400px auto;
+  align-items: center;
+}
+
+#texto > input {
+  border: none;
+  height: 30px;
+  width: 90%;
+}
+
+.buscar{
   color: rgb(96, 191, 235);
+}
+
+.iconosmain {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
 }
 
 nav {
@@ -100,10 +129,21 @@ margin-right: 10px;
   object-fit: contain;
 }
 
+.carruselbtn{
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+#botones > div:last-child {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 #botones {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 95%;
+  grid-column-gap: 90%;
   margin: 15px;
 }
 
